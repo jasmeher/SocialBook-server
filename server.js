@@ -18,7 +18,7 @@ import { verifyToken } from "./middleware/auth.js";
 // ! CORS options
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://socialbook-webapp.netlify.app/",
+  "https://socialbook-webapp.netlify.app",
 ];
 const corsOptions = {
   origin: (origin, callback) => {
